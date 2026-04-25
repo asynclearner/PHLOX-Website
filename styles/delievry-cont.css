@@ -1,0 +1,50 @@
+#Delivery{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+
+#Delivery .Delivery-Shipping{
+    position: absolute;
+    display: block;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px;
+    transform: translate(20%, -660%);
+
+    & h6{
+        font-size: 14px;
+        color: #5e5b5b;
+        font-weight: 400;
+        align-items: top;
+        justify-content: center;
+    }
+
+    & img{
+        width: 4vw;
+    }
+}
+
+#Delivery .Delivery-Money{
+    position: absolute;
+    display: block;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px;
+    transform: translate(290%, -660%);
+
+    & h6{
+        font-size: 14px;
+        color: #5e5b5b;
+        font-weight: 400;
+        align-items: top;
+        justify-content: center;
+    }
+
+    & img{
+        width: 4vw;
+    }
+}   

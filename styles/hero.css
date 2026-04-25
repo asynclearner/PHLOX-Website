@@ -1,0 +1,94 @@
+#hero{
+    height: 550px;
+    background-color: #d3cfcf;
+    border-radius: 20px;
+    position: relative;
+    font-size: 1rem;
+}
+
+#hero img{
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    position: absolute;
+    width: 47vw;
+    filter: drop-shadow(5px 20px 20px rgba(0,0,0,0.4));
+    z-index: 2;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translate(-40%, -50%) translateY(0);
+    }
+    50% {
+        transform: translate(-40%, -50%) translateY(-20px);
+    }
+}
+
+#hero .hero-text{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+    padding: 20px;
+    line-height: 1.1;
+    z-index: 1;
+
+    & h1{
+        color: white;
+        text-transform: uppercase;
+        font-size: 11em;
+        
+    }
+
+    & h2{
+        color : black;
+        font-size: 5em;
+        text-transform: capitalize;
+    }
+
+    & h3{
+        color: rgb(39, 36, 36);
+        font-size: 2em;
+        text-transform: capitalize;
+    }
+
+    & .hero-btn{
+        margin-top: 2px;
+        padding: 10px 20px;
+        font-size: 1.2em;
+        background-color: rgb(255, 0, 0);
+        border-radius: 50px;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    & .hero-btn:hover{
+        background-color: rgb(130, 35, 0);
+    }
+
+}
+
+#hero .hero-desc{
+    width: 20vw;
+    position: absolute;
+    right: 5vw;
+    bottom: 3vh;
+    padding: 20px;
+    text-align: right;
+
+    & h5{
+        font-size: 1.1em;
+        margin-bottom: 5px;
+    }
+}
+
+.Other-Pro{
+    position: absolute;
+    left: 6vw;
+    bottom: -20vh;
+    display: flex;
+    gap: 20px;
+}
