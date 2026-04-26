@@ -11,7 +11,7 @@
     flex-direction: center;
     align-items: center;
     justify-content: center;
-    transform: translate(20%, -715%);
+    transform: translate(20%, 715%);
 
     & h6{
         font-size: 14px;
@@ -34,7 +34,51 @@
     align-items: center;
     justify-content: center;
     padding: 5px 0px;
-    transform: translate(290%, -660%);
+    transform: translate(290%, 645%);
+
+    & h6{
+        font-size: 14px;
+        color: #5e5b5b;
+        font-weight: 400;
+        align-items: top;
+        justify-content: center;
+    }
+
+    & img{
+        width: 4vw;
+        display: block;
+    }
+}   
+#Delivery .Delivery-Support{
+    position: absolute;
+    display: block;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px;
+    transform: translate(380%, 645%);
+
+    & h6{
+        font-size: 14px;
+        color: #5e5b5b;
+        font-weight: 400;
+        align-items: top;
+        justify-content: center;
+    }
+
+    & img{
+        width: 4vw;
+        display: block;
+    }
+}   
+#Delivery .Delivery-Secure{
+    position: absolute;
+    display: block;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px;
+    transform: translate(725%, 645%);
 
     & h6{
         font-size: 14px;
