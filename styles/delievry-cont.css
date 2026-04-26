@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    overflow: hidden;
 }
 
 
@@ -12,7 +11,7 @@
     flex-direction: center;
     align-items: center;
     justify-content: center;
-    transform: translate(20%, -660%);
+    transform: translate(20%, -715%);
 
     & h6{
         font-size: 14px;
@@ -24,6 +23,7 @@
 
     & img{
         width: 4vw;
+        display: block;
     }
 }
 
@@ -46,5 +46,6 @@
 
     & img{
         width: 4vw;
+        display: block;
     }
 }   
