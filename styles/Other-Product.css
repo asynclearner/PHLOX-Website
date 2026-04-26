@@ -1,12 +1,18 @@
+#other-product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
 #other-product .Other-Pro{
-    width: 20vw;
-    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
     background-color: #242222;
-    transform: translate(-15%, 85.5%);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    left: 80px;
     border-radius: 20px;
     padding: 20px;
     line-height: 1;
@@ -32,9 +38,9 @@
     }
 
     & button{
-        position: absolute;
-        margin-top: 205px;
-        padding: 3px 10px;
+        position: relative;
+        margin-top: 15px;
+        padding: 8px 15px;
         font-size: 1.2em;
         background-color: rgb(255, 0, 0);
         border-radius: 50px;
@@ -44,24 +50,21 @@
     }
 
     & img{
-        position: absolute;
+        position: relative;
         width: 60%;
         height: auto;
         margin-top: 20px;
-        left: 30%;
-        z-index: 2;
     }
 }
 
 #other-product .Other-Pro2{
-    width: 20vw;
-    height: 50vh;
+    width: 100%;
+    height: auto;
     background-color: #ffd500;
-    transform: translate(123%, 13.5%);
     display: flex;
+    overflow: hidden;
     flex-direction: column;
     justify-content: center;
-    left: 10px;
     border-radius: 20px;
     padding: 20px;
     line-height: 1.4;
@@ -86,17 +89,16 @@
     }
 
     & img{
-        position: absolute;
-        width: 135%;
+        position: relative;
+        width: 100%;
         height: auto;
-        margin-bottom: 50px;
-        left: 3%;
+        margin-top: 15px;
     }
 
     & button{
-        position: absolute;
-        margin-top: 205px;
-        padding: 3px 10px;
+        position: relative;
+        margin-top: 15px;
+        padding: 8px 15px;
         font-size: 1.2em;
         background-color: rgb(141, 118, 17);
         border-radius: 50px;
@@ -107,17 +109,17 @@
 }
 
 #other-product .Other-pro3{
-    width: 47.5vw;
-    height: 50vh;
+    width: 100%;
+    height: auto;
     background-color: #ff0000;
-    transform: translate(100.5%, -87%);
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    left: 10px;
     border-radius: 20px;
-    padding: 60px;
+    padding: 20px;
     line-height: 1.45;
+    grid-column: 1 / -1;
 
     & h3{
         color: rgb(199, 86, 86);
@@ -139,43 +141,43 @@
     }
 
     & img{
-        position: absolute;
-        width: 70%;
+        position: relative;
+        width: 50%;
         height: auto;
-        margin-bottom: 5px;
-        left: 33%;
+        margin-top: 15px;
         filter: drop-shadow(-10px 20px 10px rgba(0,0,0,0.4));
     }
 
     & button{
-        position: absolute;
-        margin-top: 205px;
-        padding: 3px 10px;
+        position: relative;
+        margin-top: 15px;
+        padding: 8px 15px;
         font-size: 1.2em;
         background-color: rgb(255, 255, 255);
         border-radius: 50px;
         color: #ff0000;
         border: none;
         cursor: pointer;
+        width: fit-content;
     }
 }
+
 #other-product .Other-pro4{
-    width: 47.5vw;
-    height: 50vh;
+    width: 100%;
+    height: auto;
     background-color: #b8b6b6;
-    transform: translate(4%, -75%);
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     justify-content: center;
-    left: 10px;
     border-radius: 20px;
-    padding: 60px;
+    padding: 20px;
     line-height: 1.45;
 
     & h3{
         color: rgb(255, 255, 255);
         font-size: 2.7em;
-        margin-bottom: 70px;
+        margin-bottom: 15px;
         text-transform: uppercase;
     }
 
@@ -192,36 +194,35 @@
     }
 
     & img{
-        position: absolute;
-        width: 70%;
+        position: relative;
+        width: 50%;
         height: auto;
-        margin-bottom: 5px;
-        left: 33%;
+        margin-top: 15px;
         filter: drop-shadow(-10px 20px 10px rgba(0,0,0,0.4));
     }
     
     & button{
-        position: absolute;
-        margin-top: 130px;
-        padding: 3px 10px;
+        position: relative;
+        margin-top: 15px;
+        padding: 8px 15px;
         font-size: 1.2em;
         background-color: rgb(255, 0, 0);
         border-radius: 50px;
         color: #ffffff;
         border: none;
         cursor: pointer;
+        width: fit-content;
     }
 }
 
 #other-product .Other-pro5{
-    width: 20vw;
-    height: 50vh;
+    width: 100%;
+    height: auto;
     background-color: #23ff56;
-    transform: translate(260%, -175%);
     display: flex;
+    overflow: hidden;
     flex-direction: column;
     justify-content: center;
-    left: 10px;
     border-radius: 20px;
     padding: 20px;
     line-height: 1.4;
@@ -229,7 +230,7 @@
     & h3{
         color: #a0dcae;
         font-size: 2.7em;
-        margin-bottom: 100px;
+        margin-bottom: 15px;
         text-transform: uppercase;
     }
 
@@ -246,34 +247,34 @@
     }
 
     & img{
-        position: absolute;
-        width: 95%;
+        position: relative;
+        width: 80%;
         height: auto;
-        margin-bottom: -50px;
-        left: 18%;
+        margin-top: 15px;
     }
 
     & button{
-        position: absolute;
-        margin-bottom: -150px;
-        padding: 3px 10px;
+        position: relative;
+        margin-top: 15px;
+        padding: 8px 15px;
         font-size: 1.2em;
         background-color: rgb(255, 255, 255);
         border-radius: 50px;
         color: #23ff56;
         cursor: pointer;
         border: none;
+        width: fit-content;
     }
 }
+
 #other-product .Other-pro6{
-    width: 20vw;
-    height: 50vh;
+    width: 100%;
+    height: auto;
     background-color: #2D7BDC;
-    transform: translate(373%, -275%);
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    left: 10px;
     border-radius: 20px;
     padding: 20px;
     line-height: 1.4;
@@ -281,7 +282,7 @@
     & h3{
         color: #4e729c;
         font-size: 2.7em;
-        margin-bottom: 100px;
+        margin-bottom: 15px;
         text-transform: uppercase;
     }
 
@@ -298,22 +299,22 @@
     }
 
     & img{
-        position: absolute;
+        position: relative;
         width: 65%;
         height: auto;
-        margin-bottom: -130px;
-        left: 40%;
+        margin-top: 15px;
     }
 
     & button{
-        position: absolute;
-        margin-bottom: -150px;
-        padding: 3px 10px;
+        position: relative;
+        margin-top: 15px;
+        padding: 8px 15px;
         font-size: 1.2em;
         background-color: rgb(255, 255, 255);
         border-radius: 50px;
         color: #2D7BDC;
         cursor: pointer;
         border: none;
+        width: fit-content;
     }
 }
