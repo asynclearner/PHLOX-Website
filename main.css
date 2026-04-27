@@ -6,7 +6,11 @@
 }
 
 body{
+<<<<<<< HEAD
     height: 100vh;
+=======
+    min-height: 100vh;
+>>>>>>> 15b0477f288e4676ce11d563c27d83c762ec4e58
     margin: 0;
     padding: 20px;
     scroll-behavior: smooth;
