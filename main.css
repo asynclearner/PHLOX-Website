@@ -2,14 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body{
-    height: auto;
-    min-height: auto;
-    padding: 0px;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
     scroll-behavior: smooth;
 }
 

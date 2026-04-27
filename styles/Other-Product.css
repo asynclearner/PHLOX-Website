@@ -1,4 +1,5 @@
 #other-product .Other-Pro{
+    position: absolute;
     width: 20vw;
     height: 50vh;
     background-color: #242222;
@@ -46,6 +47,7 @@
     & img{
         position: absolute;
         width: 60%;
+        display: block;
         height: auto;
         margin-top: 20px;
         left: 30%;
@@ -54,6 +56,7 @@
 }
 
 #other-product .Other-Pro2{
+    position: absolute;
     width: 20vw;
     height: 50vh;
     background-color: #ffd500;
@@ -91,6 +94,7 @@
         height: auto;
         margin-bottom: 50px;
         left: 3%;
+        display: block;
     }
 
     & button{
@@ -107,10 +111,11 @@
 }
 
 #other-product .Other-pro3{
+    position: absolute;
     width: 47.5vw;
     height: 50vh;
     background-color: #ff0000;
-    transform: translate(100.5%, -87%);
+    transform: translate(100.5%, 14%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,6 +149,7 @@
         height: auto;
         margin-bottom: 5px;
         left: 33%;
+        display: block;
         filter: drop-shadow(-10px 20px 10px rgba(0,0,0,0.4));
     }
 
@@ -160,10 +166,11 @@
     }
 }
 #other-product .Other-pro4{
+    position: absolute;
     width: 47.5vw;
     height: 50vh;
     background-color: #b8b6b6;
-    transform: translate(4%, -75%);
+    transform: translate(4%, 128%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -193,6 +200,7 @@
 
     & img{
         position: absolute;
+        display: block;
         width: 70%;
         height: auto;
         margin-bottom: 5px;
@@ -214,10 +222,11 @@
 }
 
 #other-product .Other-pro5{
+    position: absolute;
     width: 20vw;
     height: 50vh;
     background-color: #23ff56;
-    transform: translate(260%, -175%);
+    transform: translate(260%, 129%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -247,6 +256,7 @@
 
     & img{
         position: absolute;
+        display: block;
         width: 95%;
         height: auto;
         margin-bottom: -50px;
@@ -266,10 +276,11 @@
     }
 }
 #other-product .Other-pro6{
+    position: absolute;
     width: 20vw;
     height: 50vh;
     background-color: #2D7BDC;
-    transform: translate(373%, -275%);
+    transform: translate(373%, 129%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -299,6 +310,7 @@
 
     & img{
         position: absolute;
+        display: block;
         width: 65%;
         height: auto;
         margin-bottom: -130px;
