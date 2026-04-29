@@ -1,5 +1,5 @@
 #hero{
-    height: 550px;
+    height: 50vw;
     background-color: #d3cfcf;
     border-radius: 20px;
     position: relative;
@@ -29,7 +29,7 @@
 #hero .hero-text{
     position: absolute;
     top: 50%;
-    left: 3%;
+    left: 5vw;
     transform: translateY(-50%);
     padding: 20px;
     line-height: 1.1;
@@ -75,7 +75,7 @@
     width: 20vw;
     position: absolute;
     right: 5vw;
-    bottom: 3vh;
+    bottom: 10vh;
     padding: 20px;
     text-align: right;
 

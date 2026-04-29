@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+.sale-banner{
+    background-color: red;
+    height: 60vh;
+    margin: 35vh 0;
+    display: flex;
+    border-radius: 20px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.sale-banner > div{
+    height: 100%;
+    width: 50%;
+}
+
+
+.hero-dis{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 5%;
+
+    & h1{
+        font-family: "Boldonse", system-ui;
+        font-size: 3.8em;
+        line-height: 80px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 5px;
+    }
+
+    & h4{
+        line-height: 6;
+        color: rgb(178, 178, 178);
+    }
+
+    & img{
+        position: absolute;
+        top: -40%;
+        left: 12%;
+        filter: drop-shadow(50px 40px 0px rgba(0,0,0,0.4));
+        width: 40%;
+    }
+}
+
+
+.hero-descr{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 15px;
+    padding: 0 5%;
+
+    & h1{
+        font-size: 3.5em;
+    }
+
+    & button{
+        border: none;
+        background-color: white;
+        padding: 15px 40px;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: 0.2s transform ease;
+    }
+
+    & button:hover{
+        transform: scale(1.05);
+    }
+
+    & h4{
+        font-size: 0.8em;
+        color: rgb(178, 178, 178);
+    }
+}
